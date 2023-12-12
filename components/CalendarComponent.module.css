@@ -1,0 +1,25 @@
+.calendarContainer {
+    transform: scale(1.5); /* Adjust the scale as needed */
+    transform-origin: top left;
+   
+  }
+  
+  /* Additional styles for finer control */
+  .react-calendar {
+    font-size: 16px; /* Larger text */
+  }
+  
+  .react-calendar__tile {
+    height: 50px; /* Larger date cells */
+  }
+  .eventList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.8em; /* Adjust as needed */
+  }
+  
+  .eventList li {
+    margin: 2px 0;
+  }
+  
