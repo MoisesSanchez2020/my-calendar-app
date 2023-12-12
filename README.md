@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Personal Agenda Application
 
-First, run the development server:
+## Overview
+This Personal Agenda Application is a user-friendly web app designed to help individuals manage their schedules efficiently. Built with React, Next.js, and React-Bootstrap, it features a clean and responsive interface, an intuitive calendar component, and a simple event management system.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- **Responsive Design:** Adapts seamlessly to different screen sizes for optimal user experience across various devices.
+- **Calendar Component:** Utilizes `react-big-calendar` for an interactive and easy-to-navigate calendar view, allowing users to track their events.
+- **Event Management:** Users can add new events with details such as title, date, and time through a straightforward form.
+- **Custom Header:** A flexbox layout displaying a logo next to the main header for a personalized touch.
+- **Accessibility Focus:** Ensures inclusive user interaction with descriptive alt texts for images and intuitive UI navigation.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation and Setup
+To get the application running locally:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Run the Application:**
+   ```bash
+   npm run dev
+   ```
+   Visit `http://localhost:3000` in your browser.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
+- **React:** A JavaScript library for building user interfaces.
+- **Next.js:** A React framework for production.
+- **React-Bootstrap:** For responsive styling and layout.
+- **React Big Calendar:** A calendar component for event management.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
+Contributions to the project are welcome! Please refer to the `CONTRIBUTING.md` for more details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
+This project is licensed under the MIT License - see the `LICENSE.md` file for details.
 
-## Deploy on Vercel
+## Acknowledgements
+- React and Next.js Community
+- Contributors and Developers who've offered insights and feedback.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for checking out our Personal Agenda Application!
